@@ -237,21 +237,21 @@ h1{
  position: relative;
  display: flex;
  border: 2px solid black;
- margin: 10px;
+ margin: 5px;
  padding: 2px;
  align-items: center;
  
 } 
 
 .image-1{
-    width:141px;
-    height:141px;
+    width:130px;
+    height:130px;
     top: 0;
     right:0;
     }
 .image-2{
-    width:141px;
-    height:141px;
+    width:130px;
+    height:130px;
     bottom: 0;
     left:0;   
 }
@@ -270,8 +270,8 @@ h1{
     justify-content: center;
 }
 
-.paragraph1 {
-
+.Textcontainer, .paragraph1 {
+justify-content: center;
 }
 
 .form {
