@@ -232,7 +232,7 @@ h1{
 
 .side-2{ 
  width:500px;
- height:400px;
+ height:600px;
  background-color: white;
  position: relative;
  display: flex;
@@ -242,11 +242,14 @@ h1{
 } 
 
 .image-1{
-   
+    width:141px;
+    height:141px;
     top: 0;
     right:0;
     }
 .image-2{
+    width:141px;
+    height:141px;
     bottom: 0;
     left:0;   
 }
@@ -261,8 +264,8 @@ h1{
 } 
 
 .Textcontainer {
-flex-direction: row;
-    align-content: center;
+
+    justify-content: center;
 }
 
 .paragraph1 {
