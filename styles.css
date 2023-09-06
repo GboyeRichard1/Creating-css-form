@@ -234,16 +234,45 @@ h1{
  width:50%;
  background-color: white;
  position: relative;
-} 
-
-.content2{
-
-}
-
-.image-1{ 
+ display: flex;
  
 } 
 
+.image-1{
+   
+    top: 0;
+    right:0;
+    }
 .image-2{
+    bottom: 0;
+    left:0;   
+}
+.imagewrapper{
+   width: 100px;
+   height: 100px;
+}
+
+.image-1, .image-2{ 
+    position: absolute;
+  
+} 
+
+.Textcontainer {
 
 }
+
+.paragraph1 {
+
+}
+
+.form {
+
+}
+
+.paragraph2 {
+
+}
+
+.signupbutton {
+    
+} 
