@@ -231,7 +231,9 @@ h1{
 
 
 .side-2{ 
- 
+ width:50%;
+ background-color: white;
+ position: relative;
 } 
 
 .content2{
