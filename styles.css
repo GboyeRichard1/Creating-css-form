@@ -180,6 +180,8 @@ h1{
     margin: 0 auto;
     margin-top: 30px ;
     display: flex;
+
+
     /* border: 2px solid black; */
 }
 .leftSide{
@@ -226,9 +228,9 @@ h1{
     box-shadow: 1px 1px #CCCCCC;
     color: #707070;
 }
+
+
 .rightSide{
-  width: 50%;
+    
+   
 }
-
-
-
