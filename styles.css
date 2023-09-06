@@ -175,16 +175,16 @@ h1{
 
 /* assigmnent */
 .signUpForm{
-    width: 1000px;
-    height: 600px;
+    width: 900px;
+    height: 500px;
+    border: 2px solid black;
     margin: 0 auto;
     margin-top: 30px ;
-    display: flex;
-
-
+    display: flex; 
+    
     /* border: 2px solid black; */
 }
-.leftSide{
+.side-1{
   width: 50%;
 }
 .background, .bgImg, .contents{
@@ -230,7 +230,10 @@ h1{
 }
 
 
-.rightSide{
-    
-   
+.side-2{ 
+ 
+} 
+
+.content2{
+
 }
