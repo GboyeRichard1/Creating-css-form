@@ -173,6 +173,9 @@ h1{
     /* flex-grow: .4;
 } */
 
+body{
+    background-color: #CCCCCC;
+}
 /* assigmnent */
 .signUpForm{
     width: 1000px;
@@ -226,6 +229,78 @@ h1{
     box-shadow: 1px 1px #CCCCCC;
     color: #707070;
 }
+
 .rightSide{
   width: 50%;
+  background-color: #fff;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.image1{
+    position: absolute;
+    top:0;
+    right:0;
+    width:125;
+    height:130
+}
+
+.image2{
+    position:absolute;
+    bottom:0;
+    left:0;
+    width: 125px;
+    height: 130;
+}
+
+
+.Smallheading{
+    margin-bottom: 33px;
+    font-size: 22px;
+    color: #4F4F4F;
+    opacity: .80px;
+    text-align: center;
+}
+
+.BigHeading{
+    font-size: 40px;
+    font-weight: 400;
+    color: #4F4F4F;
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+.Email, .Password, .terms, .lastbutton{
+    width: 320px;
+    height: 29px;
+    border: 2px; 
+}
+
+.Email, .Password{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+.terms{
+    display: flex;
+    gap: 5px;
+    font-size: 12px;
+    color: #4F4F4F;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.input{
+Display: flex;
+flex-direction: column;
+gap: 30px
+}
+
+.signupbutton{
+ width: 324px;  
 }
